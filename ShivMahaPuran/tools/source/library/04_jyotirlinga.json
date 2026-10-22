@@ -1,0 +1,43 @@
+{
+ "id": "jyotirlinga_stotram",
+ "order": 4,
+ "language": "sa",
+ "title": {"en": "Dvadasha Jyotirlinga Stotram", "hi": "द्वादश ज्योतिर्लिङ्ग स्मरणम्", "gu": "દ્વાદશ જ્યોતિર્લિંગ સ્મરણમ્"},
+ "subtitle": {"en": "Remembering the twelve Jyotirlingas, morning and evening", "hi": "प्रातः-सायं बारह ज्योतिर्लिंगों का स्मरण", "gu": "સવાર-સાંજ બાર જ્યોતિર્લિંગોનું સ્મરણ"},
+ "author": {"en": "Traditional (see Kotirudra Samhita, chapter 1)", "hi": "पारम्परिक (कोटिरुद्र संहिता, अध्याय १ देखें)", "gu": "પરંપરાગત (કોટિરુદ્ર સંહિતા, અધ્યાય ૧ જુઓ)"},
+ "source": "Sanskrit text: traditional (public domain). Meanings: in-house.",
+ "sections": [
+  {
+   "sanskrit": "सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् ।\nउज्जयिन्यां महाकालमोङ्कारममलेश्वरम् ॥ १ ॥",
+   "text": {
+    "en": "Somnath in Saurashtra, Mallikarjuna on Shrishaila, Mahakala in Ujjain, and Omkareshwar–Amaleshwar.",
+    "hi": "सौराष्ट्र में सोमनाथ, श्रीशैल पर मल्लिकार्जुन, उज्जैन में महाकाल, और ओंकारेश्वर-अमलेश्वर।",
+    "gu": "સૌરાષ્ટ્રમાં સોમનાથ, શ્રીશૈલ પર મલ્લિકાર્જુન, ઉજ્જૈનમાં મહાકાળ, અને ઓંકારેશ્વર-અમલેશ્વર."
+   }
+  },
+  {
+   "sanskrit": "परल्यां वैद्यनाथं च डाकिन्यां भीमशङ्करम् ।\nसेतुबन्धे तु रामेशं नागेशं दारुकावने ॥ २ ॥",
+   "text": {
+    "en": "Vaidyanath at Parali, Bhimashankar in Dakini, Rameshwaram at the bridge to Lanka, and Nageshwar in the Daruka forest.",
+    "hi": "परली में वैद्यनाथ, डाकिनी में भीमशंकर, सेतुबन्ध में रामेश्वर, और दारुकावन में नागेश्वर।",
+    "gu": "પરળીમાં વૈદ્યનાથ, ડાકિનીમાં ભીમાશંકર, સેતુબંધમાં રામેશ્વર, અને દારુકાવનમાં નાગેશ્વર."
+   }
+  },
+  {
+   "sanskrit": "वाराणस्यां तु विश्वेशं त्र्यम्बकं गौतमीतटे ।\nहिमालये तु केदारं घुश्मेशं च शिवालये ॥ ३ ॥",
+   "text": {
+    "en": "Vishvanath in Varanasi, Tryambakeshwar on the bank of the Gautami (Godavari), Kedarnath in the Himalayas, and Ghushmeshwar at Shivalaya.",
+    "hi": "वाराणसी में विश्वनाथ, गौतमी (गोदावरी) के तट पर त्र्यम्बकेश्वर, हिमालय में केदारनाथ, और शिवालय में घुश्मेश्वर।",
+    "gu": "વારાણસીમાં વિશ્વનાથ, ગૌતમી (ગોદાવરી)ના તટે ત્ર્યંબકેશ્વર, હિમાલયમાં કેદારનાથ, અને શિવાલયમાં ઘુશ્મેશ્વર."
+   }
+  },
+  {
+   "sanskrit": "एतानि ज्योतिर्लिङ्गानि सायं प्रातः पठेन्नरः ।\nसप्तजन्मकृतं पापं स्मरणेन विनश्यति ॥ ४ ॥",
+   "text": {
+    "en": "Whoever recites these Jyotirlingas morning and evening — by their mere remembrance, the sins of seven lifetimes are destroyed.",
+    "hi": "जो मनुष्य प्रातः और सायं इन ज्योतिर्लिंगों का पाठ करता है, उसके सात जन्मों के पाप केवल स्मरण से नष्ट हो जाते हैं।",
+    "gu": "જે મનુષ્ય સવાર અને સાંજ આ જ્યોતિર્લિંગોનો પાઠ કરે છે, તેનાં સાત જન્મોનાં પાપ માત્ર સ્મરણથી નષ્ટ થાય છે."
+   }
+  }
+ ]
+}

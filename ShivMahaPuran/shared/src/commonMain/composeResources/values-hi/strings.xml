@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">शिव महापुराण</string>
+    <string name="invocation">ॐ नमः शिवाय</string>
+    <string name="greeting">हर हर महादेव</string>
+    <string name="tagline">भगवान शिव की महिमा — ७ संहिताएँ, ४५७ अध्याय, २४,००० श्लोक</string>
+
+    <string name="loading_preparing">पवित्र ग्रंथ तैयार हो रहा है…</string>
+    <string name="loading_error">सामग्री तैयार नहीं हो सकी। कृपया पुनः प्रयास करें।</string>
+    <string name="retry">पुनः प्रयास करें</string>
+
+    <string name="nav_home">मुख्य</string>
+    <string name="nav_samhitas">संहिताएँ</string>
+    <string name="nav_library">स्तोत्र</string>
+    <string name="nav_bookmarks">बुकमार्क</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="back">पीछे</string>
+    <string name="close">बंद करें</string>
+    <string name="search">खोजें</string>
+
+    <string name="chapter_of_the_day">आज का अध्याय</string>
+    <string name="continue_reading">पढ़ना जारी रखें</string>
+    <string name="start_reading">पाठ आरंभ करें</string>
+    <string name="start_reading_hint">विद्येश्वर संहिता, अध्याय १ से आरंभ करें</string>
+    <string name="read_now">पढ़ें</string>
+    <string name="overall_progress">आपकी यात्रा</string>
+    <string name="chapters_read">%2$s में से %1$s अध्याय पढ़े</string>
+    <string name="samhitas_title">सात संहिताएँ</string>
+
+    <string name="samhita_n">संहिता %1$s</string>
+    <string name="chapter_n">अध्याय %1$s</string>
+    <string name="chapters_count">%1$s अध्याय</string>
+    <string name="verses_count">%1$s श्लोक</string>
+    <string name="verse_n">श्लोक %1$s</string>
+    <string name="chapter_verse">अध्याय %1$s · श्लोक %2$s</string>
+    <string name="begin_part">आरंभ करें</string>
+    <string name="continue_part">अध्याय %1$s से जारी रखें</string>
+    <string name="summary">सारांश</string>
+    <string name="sanskrit_synopsis">विषय (संस्कृत)</string>
+    <string name="summary_pending">आपकी भाषा में सारांश तैयार किया जा रहा है। नीचे ग्रंथ का संस्कृत विषय-संक्षेप दिया गया है।</string>
+    <string name="meaning">अर्थ</string>
+    <string name="with_meanings">अर्थ सहित</string>
+
+    <string name="page_of">%1$s / %2$s</string>
+    <string name="previous">पिछला</string>
+    <string name="next">अगला</string>
+    <string name="reading_options">पठन विकल्प</string>
+    <string name="chapter_complete">अध्याय पूर्ण</string>
+    <string name="chapter_complete_message">भगवान शिव आपके मार्ग को आलोकित करें।</string>
+    <string name="next_chapter">अगला अध्याय</string>
+    <string name="back_to_part">संहिता पर लौटें</string>
+    <string name="puran_complete">ॐ नमः शिवाय</string>
+    <string name="puran_complete_message">आपने शिव महापुराण का पाठ पूर्ण किया। हर हर महादेव!</string>
+
+    <string name="bookmark_add">इस पृष्ठ को बुकमार्क करें</string>
+    <string name="bookmark_remove">बुकमार्क हटाएँ</string>
+    <string name="no_bookmarks">अभी कोई बुकमार्क नहीं</string>
+    <string name="no_bookmarks_hint">पढ़ते समय बुकमार्क चिह्न दबाकर प्रिय पृष्ठ सहेजें।</string>
+    <string name="share">साझा करें</string>
+    <string name="copy">कॉपी करें</string>
+    <string name="copied">श्लोक कॉपी हो गया</string>
+    <string name="share_footer">— शिव महापुराण, %1$s</string>
+
+    <string name="search_hint">अध्याय, कथा या संस्कृत शब्द खोजें</string>
+    <string name="search_empty">अध्यायों के नाम, सारांश और सभी २४,००० श्लोकों में खोजें।</string>
+    <string name="search_no_results">कुछ नहीं मिला</string>
+    <string name="search_chapters">अध्याय</string>
+    <string name="search_verses">श्लोक</string>
+
+    <string name="settings_language">भाषा</string>
+    <string name="settings_reading">पठन</string>
+    <string name="settings_display">प्रदर्शन</string>
+    <string name="settings_about">परिचय</string>
+    <string name="font_size">अक्षर का आकार</string>
+    <string name="show_transliteration">लिप्यंतरण (रोमन) दिखाएँ</string>
+    <string name="show_meanings">उपलब्ध हो तो अर्थ दिखाएँ</string>
+    <string name="sanskrit_script">श्लोक की लिपि</string>
+    <string name="script_auto">ऐप की भाषा अनुसार</string>
+    <string name="script_devanagari">देवनागरी (संस्कृत)</string>
+    <string name="script_gujarati">गुजराती (ગુજરાતી)</string>
+    <string name="verses_per_page">प्रति पृष्ठ श्लोक</string>
+    <string name="keep_screen_on">पढ़ते समय स्क्रीन चालू रखें</string>
+    <string name="night_mode">रात्रि पठन</string>
+    <string name="night_mode_hint">कम रोशनी में आरामदायक पठन के लिए पृष्ठ को मंद करता है</string>
+    <string name="privacy_options">विज्ञापन गोपनीयता विकल्प</string>
+    <string name="about_text">शिवभक्तों के लिए एक विनम्र भेंट — सम्पूर्ण संस्कृत शिव महापुराण, पुस्तक की भाँति, पूर्णतः ऑफ़लाइन, हर अध्याय के हिन्दी, अंग्रेज़ी और गुजराती सारांश सहित।</string>
+    <string name="content_source">संस्कृत पाठ संस्कृत विकिस्रोत (सार्वजनिक) से लिया गया है। सारांश, शीर्षक और अर्थ इस ऐप के लिए तैयार किए गए हैं।</string>
+    <string name="version">संस्करण %1$s</string>
+
+    <string name="library_subtitle">प्रिय शिव स्तोत्र, अर्थ सहित</string>
+    <string name="book_pages">%1$s पृष्ठ</string>
+    <string name="shown_in">%1$s में</string>
+    <string name="source_label">स्रोत: %1$s</string>
+    <string name="book_complete">ॐ नमः शिवाय। हर हर महादेव!</string>
+    <string name="recite_daily">प्रतिदिन पाठ करें</string>
+
+    <string name="onboarding_title">अपनी भाषा चुनें</string>
+    <string name="continue_label">आगे बढ़ें</string>
+</resources>

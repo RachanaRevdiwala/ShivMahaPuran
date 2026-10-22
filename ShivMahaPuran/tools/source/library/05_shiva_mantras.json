@@ -1,0 +1,38 @@
+{
+ "id": "shiva_mantras",
+ "order": 5,
+ "language": "sa",
+ "title": {"en": "Shiva Mantras", "hi": "शिव मन्त्र", "gu": "શિવ મંત્રો"},
+ "subtitle": {"en": "Panchakshari, Mahamrityunjaya and Karpuragauram", "hi": "पञ्चाक्षरी, महामृत्युञ्जय और कर्पूरगौरम्", "gu": "પંચાક્ષરી, મહામૃત્યુંજય અને કર્પૂરગૌરમ્"},
+ "author": {"en": "Vedic and traditional", "hi": "वैदिक और पारम्परिक", "gu": "વૈદિક અને પરંપરાગત"},
+ "source": "Sanskrit text: Rigveda 7.59.12 and Yajurveda (Mahamrityunjaya), traditional (Panchakshari, Karpuragauram); public domain. Meanings: in-house.",
+ "sections": [
+  {
+   "title": {"en": "The Five-Syllable Mantra", "hi": "पञ्चाक्षरी मन्त्र", "gu": "પંચાક્ષરી મંત્ર"},
+   "sanskrit": "ॐ नमः शिवाय ॥",
+   "text": {
+    "en": "Om, salutations to Shiva. The Shiva Purana calls this five-syllable mantra the essence of the Vedas: whoever repeats it with faith, in any age, reaches Shiva (Vayaviya Samhita, Uttara Bhaga, chapters 12–14).",
+    "hi": "ॐ, शिव को नमस्कार। शिवपुराण इस पंचाक्षर मंत्र को वेदों का सार बताता है: किसी भी युग में जो इसे श्रद्धा से जपता है, वह शिव को प्राप्त होता है (वायवीय संहिता, उत्तर भाग, अध्याय १२–१४)।",
+    "gu": "ૐ, શિવને નમસ્કાર. શિવપુરાણ આ પંચાક્ષર મંત્રને વેદોનો સાર કહે છે: કોઈ પણ યુગમાં જે તેને શ્રદ્ધાથી જપે છે, તે શિવને પામે છે (વાયવીય સંહિતા, ઉત્તર ભાગ, અધ્યાય ૧૨–૧૪)."
+   }
+  },
+  {
+   "title": {"en": "Mahamrityunjaya Mantra", "hi": "महामृत्युञ्जय मन्त्र", "gu": "મહામૃત્યુંજય મંત્ર"},
+   "sanskrit": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ।\nउर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥",
+   "text": {
+    "en": "We worship the three-eyed Lord, fragrant, who nourishes and makes all beings flourish. As a ripe cucumber is freed from its vine, may he free us from death — but not from immortality.",
+    "hi": "हम तीन नेत्रों वाले, सुगन्धित, सबका पोषण और वृद्धि करने वाले प्रभु का पूजन करते हैं। जैसे पका हुआ ककड़ी का फल अपनी बेल के बंधन से सहज ही छूट जाता है, वैसे ही वे हमें मृत्यु से मुक्त करें, अमृत से नहीं।",
+    "gu": "અમે ત્રણ નેત્રોવાળા, સુગંધિત, સૌનું પોષણ અને વૃદ્ધિ કરનાર પ્રભુનું પૂજન કરીએ છીએ. જેમ પાકેલું કાકડીનું ફળ પોતાની વેલના બંધનથી સહજ છૂટી જાય છે, તેમ તેઓ અમને મૃત્યુથી મુક્ત કરે, અમૃતથી નહીં."
+   }
+  },
+  {
+   "title": {"en": "Karpuragauram", "hi": "कर्पूरगौरम्", "gu": "કર્પૂરગૌરમ્"},
+   "sanskrit": "कर्पूरगौरं करुणावतारं\nसंसारसारं भुजगेन्द्रहारम् ।\nसदा वसन्तं हृदयारविन्दे\nभवं भवानीसहितं नमामि ॥",
+   "text": {
+    "en": "White as camphor, compassion incarnate, the essence of the world, wearing the king of serpents as a garland, ever dwelling in the lotus of the heart — to Bhava, together with Bhavani, I bow. (Sung at the close of the arati.)",
+    "hi": "जो कपूर के समान गौर वर्ण हैं, करुणा के अवतार हैं, संसार के सार हैं, नागराज का हार पहनते हैं, और सदा हृदयकमल में निवास करते हैं — उन भवानी सहित भगवान भव को मैं नमस्कार करता हूँ। (आरती के अंत में गाया जाता है।)",
+    "gu": "જે કપૂર સમાન ગૌર વર્ણ છે, કરુણાના અવતાર છે, સંસારના સાર છે, નાગરાજનો હાર પહેરે છે, અને સદા હૃદયકમળમાં નિવાસ કરે છે — તે ભવાની સહિત ભગવાન ભવને હું નમસ્કાર કરું છું. (આરતીના અંતે ગવાય છે.)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "rudrashtakam",
+ "order": 3,
+ "language": "sa",
+ "title": {"en": "Shri Rudrashtakam", "hi": "श्रीरुद्राष्टकम्", "gu": "શ્રીરુદ્રાષ્ટકમ્"},
+ "subtitle": {"en": "Eight verses to Rudra, from the Ramcharitmanas", "hi": "श्रीरामचरितमानस से रुद्र की स्तुति के आठ श्लोक", "gu": "શ્રીરામચરિતમાનસમાંથી રુદ્રની સ્તુતિના આઠ શ્લોક"},
+ "author": {"en": "Goswami Tulsidas (Uttara Kanda)", "hi": "गोस्वामी तुलसीदास (उत्तरकाण्ड)", "gu": "ગોસ્વામી તુલસીદાસ (ઉત્તરકાંડ)"},
+ "source": "Sanskrit text: Ramcharitmanas, Uttara Kanda (16th century, public domain). Meanings: in-house.",
+ "sections": [
+  {
+   "sanskrit": "नमामीशमीशान निर्वाणरूपं\nविभुं व्यापकं ब्रह्मवेदस्वरूपम् ।\nनिजं निर्गुणं निर्विकल्पं निरीहं\nचिदाकाशमाकाशवासं भजेऽहम् ॥ १ ॥",
+   "text": {
+    "en": "I bow to the Lord Ishana, whose very form is liberation — all-pervading, the embodiment of Brahman and the Vedas. I worship him who abides in himself, beyond qualities, beyond thought and desire, the sky of consciousness, clothed in the sky.",
+    "hi": "हे ईशान! मैं मोक्षस्वरूप, सर्वव्यापक, ब्रह्म और वेदस्वरूप प्रभु को नमस्कार करता हूँ। अपने आप में स्थित, निर्गुण, निर्विकल्प, इच्छारहित, चेतन आकाशरूप और आकाश को ही वस्त्र बनाने वाले आपको मैं भजता हूँ।",
+    "gu": "હે ઈશાન! હું મોક્ષસ્વરૂપ, સર્વવ્યાપક, બ્રહ્મ અને વેદસ્વરૂપ પ્રભુને નમસ્કાર કરું છું. પોતામાં સ્થિત, નિર્ગુણ, નિર્વિકલ્પ, ઇચ્છારહિત, ચેતન આકાશરૂપ અને આકાશને જ વસ્ત્ર બનાવનાર આપને હું ભજું છું."
+   }
+  },
+  {
+   "sanskrit": "निराकारमोङ्कारमूलं तुरीयं\nगिराज्ञानगोतीतमीशं गिरीशम् ।\nकरालं महाकालकालं कृपालं\nगुणागारसंसारपारं नतोऽहम् ॥ २ ॥",
+   "text": {
+    "en": "I bow to the formless one, the source of Om, the fourth state beyond waking, dream and sleep, beyond speech, knowledge and the senses — the Lord of the mountain; fearsome, the death of Death himself, yet merciful; the abode of virtues, beyond the world.",
+    "hi": "जो निराकार, ओंकार के मूल, तुरीय (तीनों अवस्थाओं से परे), वाणी, ज्ञान और इन्द्रियों से अतीत हैं, कैलासपति हैं; जो भयंकर, महाकाल के भी काल, फिर भी कृपालु, गुणों के धाम और संसार से परे हैं — उन्हें मैं नमस्कार करता हूँ।",
+    "gu": "જે નિરાકાર, ઓંકારના મૂળ, તુરીય (ત્રણેય અવસ્થાઓથી પર), વાણી, જ્ઞાન અને ઇન્દ્રિયોથી અતીત છે, કૈલાસપતિ છે; જે ભયંકર, મહાકાળના પણ કાળ, છતાં કૃપાળુ, ગુણોના ધામ અને સંસારથી પર છે — તેમને હું નમસ્કાર કરું છું."
+   }
+  },
+  {
+   "sanskrit": "तुषाराद्रिसङ्काशगौरं गभीरं\nमनोभूतकोटिप्रभाश्रीशरीरम् ।\nस्फुरन्मौलिकल्लोलिनी चारुगङ्गा\nलसद्भालबालेन्दु कण्ठे भुजङ्गा ॥ ३ ॥",
+   "text": {
+    "en": "Fair as the snowy Himalaya, profound, his body shining with the beauty of countless Kamadevas; on his head sparkles the lovely flowing Ganga, on his brow gleams the crescent moon, and serpents adorn his throat.",
+    "hi": "जो हिमालय के समान गौर वर्ण और गम्भीर हैं, जिनके शरीर में करोड़ों कामदेवों की ज्योति है; जिनके सिर पर सुन्दर लहराती गंगा, ललाट पर बाल चन्द्रमा और गले में सर्प सुशोभित हैं।",
+    "gu": "જે હિમાલય સમાન ગૌર વર્ણ અને ગંભીર છે, જેમના શરીરમાં કરોડો કામદેવોની જ્યોતિ છે; જેમના મસ્તક પર સુંદર લહેરાતી ગંગા, લલાટ પર બાલ ચંદ્ર અને ગળામાં સર્પ શોભે છે."
+   }
+  },
+  {
+   "sanskrit": "चलत्कुण्डलं भ्रूसुनेत्रं विशालं\nप्रसन्नाननं नीलकण्ठं दयालम् ।\nमृगाधीशचर्माम्बरं मुण्डमालं\nप्रियं शङ्करं सर्वनाथं भजामि ॥ ४ ॥",
+   "text": {
+    "en": "With swinging earrings, fine brows and large eyes, a cheerful face, a blue throat, full of kindness; wearing a lion's skin and a garland of skulls — I worship beloved Shankara, Lord of all.",
+    "hi": "जिनके कानों में कुण्डल हिल रहे हैं, सुन्दर भौंहें और विशाल नेत्र हैं, जो प्रसन्नमुख, नीलकण्ठ और दयालु हैं; जो सिंहचर्म धारण किए और मुण्डमाल पहने हैं — उन सबके प्यारे, सबके नाथ शंकर को मैं भजता हूँ।",
+    "gu": "જેમના કાનમાં કુંડળ હાલે છે, સુંદર ભ્રમરો અને વિશાળ નેત્રો છે, જે પ્રસન્નમુખ, નીલકંઠ અને દયાળુ છે; જે સિંહચર્મ ધારણ કરેલા અને મુંડમાળ પહેરેલા છે — તે સૌના પ્રિય, સૌના નાથ શંકરને હું ભજું છું."
+   }
+  },
+  {
+   "sanskrit": "प्रचण्डं प्रकृष्टं प्रगल्भं परेशं\nअखण्डं अजं भानुकोटिप्रकाशम् ।\nत्रयःशूलनिर्मूलनं शूलपाणिं\nभजेऽहं भवानीपतिं भावगम्यम् ॥ ५ ॥",
+   "text": {
+    "en": "Fierce, supreme, mighty, the highest Lord, undivided, unborn, radiant as ten million suns; who uproots the threefold suffering, the trident-bearer — I worship the husband of Bhavani, who is reached through love.",
+    "hi": "जो प्रचण्ड, श्रेष्ठ, तेजस्वी, परमेश्वर, अखण्ड, अजन्मा और करोड़ों सूर्यों के समान प्रकाशवान हैं; जो तीनों प्रकार के दुःखों को जड़ से मिटाने वाले, त्रिशूलधारी हैं — भाव से प्राप्त होने वाले उन भवानीपति को मैं भजता हूँ।",
+    "gu": "જે પ્રચંડ, શ્રેષ્ઠ, તેજસ્વી, પરમેશ્વર, અખંડ, અજન્મા અને કરોડો સૂર્ય સમાન પ્રકાશવાન છે; જે ત્રણેય પ્રકારનાં દુઃખોને મૂળથી મટાડનાર, ત્રિશૂળધારી છે — ભાવથી પ્રાપ્ત થતા તે ભવાનીપતિને હું ભજું છું."
+   }
+  },
+  {
+   "sanskrit": "कलातीतकल्याणकल्पान्तकारी\nसदासज्जनानन्ददाता पुरारी ।\nचिदानन्दसन्दोहमोहापहारी\nप्रसीद प्रसीद प्रभो मन्मथारी ॥ ६ ॥",
+   "text": {
+    "en": "Beyond all parts, the auspicious one who brings the age to its end, ever the giver of joy to the good, foe of the Tripura demons, a mass of consciousness and bliss who removes delusion — be gracious, be gracious, O Lord, enemy of Kama.",
+    "hi": "हे कलाओं से परे, कल्याणस्वरूप, कल्प का अंत करने वाले, सज्जनों को सदा आनन्द देने वाले, त्रिपुर के शत्रु, सच्चिदानन्दघन, मोह को हरने वाले, कामदेव के शत्रु प्रभो! प्रसन्न होइए, प्रसन्न होइए।",
+    "gu": "હે કળાઓથી પર, કલ્યાણસ્વરૂપ, કલ્પનો અંત કરનાર, સજ્જનોને સદા આનંદ આપનાર, ત્રિપુરના શત્રુ, સચ્ચિદાનંદઘન, મોહને હરનાર, કામદેવના શત્રુ પ્રભુ! પ્રસન્ન થાઓ, પ્રસન્ન થાઓ."
+   }
+  },
+  {
+   "sanskrit": "न यावद् उमानाथपादारविन्दं\nभजन्तीह लोके परे वा नराणाम् ।\nन तावत्सुखं शान्तिसन्तापनाशं\nप्रसीद प्रभो सर्वभूताधिवासम् ॥ ७ ॥",
+   "text": {
+    "en": "As long as people do not worship the lotus feet of Uma's Lord, they find no happiness, no peace and no end to suffering, in this world or the next. Be gracious, O Lord who dwells in all beings.",
+    "hi": "जब तक मनुष्य उमापति के चरणकमलों का भजन नहीं करते, तब तक उन्हें इस लोक या परलोक में न सुख मिलता है, न शान्ति, और न उनके दुःखों का नाश होता है। हे सब प्राणियों में निवास करने वाले प्रभो! प्रसन्न होइए।",
+    "gu": "જ્યાં સુધી મનુષ્યો ઉમાપતિનાં ચરણકમળનું ભજન કરતા નથી, ત્યાં સુધી તેમને આ લોક કે પરલોકમાં ન સુખ મળે છે, ન શાંતિ, અને ન તેમનાં દુઃખોનો નાશ થાય છે. હે સર્વ પ્રાણીઓમાં નિવાસ કરનાર પ્રભુ! પ્રસન્ન થાઓ."
+   }
+  },
+  {
+   "sanskrit": "न जानामि योगं जपं नैव पूजां\nनतोऽहं सदा सर्वदा शम्भु तुभ्यम् ।\nजराजन्मदुःखौघतातप्यमानं\nप्रभो पाहि आपन्नमामीश शम्भो ॥ ८ ॥",
+   "text": {
+    "en": "I know neither yoga, nor japa, nor worship; I simply bow to you, O Shambhu, always and at every moment. O Lord, protect me, burning in the flood of sorrows of old age and birth; O Lord, O Shambhu, I come to you in distress.",
+    "hi": "मैं न योग जानता हूँ, न जप, न पूजा; हे शम्भो! मैं तो सदा-सर्वदा आपको ही नमस्कार करता हूँ। बुढ़ापे और जन्म के दुःखों के समूह से जलते हुए मुझ दुःखी की, हे प्रभो! हे ईश! हे शम्भो! रक्षा कीजिए।",
+    "gu": "હું ન યોગ જાણું છું, ન જપ, ન પૂજા; હે શંભુ! હું તો સદા-સર્વદા આપને જ નમસ્કાર કરું છું. વૃદ્ધાવસ્થા અને જન્મનાં દુઃખોના સમૂહથી બળતા મારા જેવા દુઃખીની, હે પ્રભુ! હે ઈશ! હે શંભુ! રક્ષા કરો."
+   }
+  },
+  {
+   "sanskrit": "रुद्राष्टकमिदं प्रोक्तं विप्रेण हरतोषये ।\nये पठन्ति नरा भक्त्या तेषां शम्भुः प्रसीदति ॥ ९ ॥",
+   "text": {
+    "en": "This Rudrashtakam was sung by a brahmin to please Hara. Shambhu is pleased with those who recite it with devotion.",
+    "hi": "यह रुद्राष्टक एक ब्राह्मण ने भगवान हर को प्रसन्न करने के लिए कहा था। जो मनुष्य इसे भक्ति से पढ़ते हैं, उन पर शम्भु प्रसन्न होते हैं।",
+    "gu": "આ રુદ્રાષ્ટક એક બ્રાહ્મણે ભગવાન હરને પ્રસન્ન કરવા કહ્યું હતું. જે મનુષ્યો તેને ભક્તિથી વાંચે છે, તેમના પર શંભુ પ્રસન્ન થાય છે."
+   }
+  }
+ ]
+}

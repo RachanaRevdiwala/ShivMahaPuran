@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="parchment">#DCE7F3</color>
+    <color name="maroon">#173E73</color>
+    <color name="saffron">#2B6CB0</color>
+
+    <style name="Theme.Puran" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/parchment</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Puran.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/parchment</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_om</item>
+        <item name="postSplashScreenTheme">@style/Theme.Puran</item>
+    </style>
+</resources>

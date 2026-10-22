@@ -1,0 +1,59 @@
+{
+ "id": "shiva_panchakshara",
+ "order": 1,
+ "language": "sa",
+ "title": {"en": "Shiva Panchakshara Stotram", "hi": "शिव पञ्चाक्षर स्तोत्रम्", "gu": "શિવ પંચાક્ષર સ્તોત્રમ્"},
+ "subtitle": {"en": "Five verses, one for each syllable of 'Na-ma-shi-vā-ya'", "hi": "'न-मः-शि-वा-य' के प्रत्येक अक्षर पर एक-एक श्लोक", "gu": "'ન-મઃ-શિ-વા-ય'ના દરેક અક્ષર પર એક-એક શ્લોક"},
+ "author": {"en": "Traditionally attributed to Adi Shankaracharya", "hi": "परम्परा से आदि शंकराचार्य रचित", "gu": "પરંપરા મુજબ આદિ શંકરાચાર્ય રચિત"},
+ "source": "Sanskrit text: traditional (public domain). Meanings: in-house.",
+ "sections": [
+  {
+   "sanskrit": "नागेन्द्रहाराय त्रिलोचनाय\nभस्माङ्गरागाय महेश्वराय ।\nनित्याय शुद्धाय दिगम्बराय\nतस्मै नकाराय नमः शिवाय ॥ १ ॥",
+   "text": {
+    "en": "Salutations to Shiva, who wears the king of serpents as a garland, the three-eyed one, whose body is smeared with sacred ash, the great Lord — eternal, pure, clothed in the directions. To him, the syllable 'Na', I bow.",
+    "hi": "जो नागराज को हार के रूप में धारण करते हैं, जिनके तीन नेत्र हैं, जिनके अंगों पर भस्म का लेप है, जो महेश्वर, नित्य, शुद्ध और दिगम्बर हैं — उन 'न' कार स्वरूप शिव को नमस्कार है।",
+    "gu": "જે નાગરાજને હાર રૂપે ધારણ કરે છે, જેમનાં ત્રણ નેત્ર છે, જેમનાં અંગો પર ભસ્મનો લેપ છે, જે મહેશ્વર, નિત્ય, શુદ્ધ અને દિગંબર છે — તે 'ન' કાર સ્વરૂપ શિવને નમસ્કાર."
+   }
+  },
+  {
+   "sanskrit": "मन्दाकिनीसलिलचन्दनचर्चिताय\nनन्दीश्वरप्रमथनाथमहेश्वराय ।\nमन्दारपुष्पबहुपुष्पसुपूजिताय\nतस्मै मकाराय नमः शिवाय ॥ २ ॥",
+   "text": {
+    "en": "Salutations to Shiva, anointed with the waters of the heavenly Ganga and with sandalwood, the great Lord of Nandi and of the Pramatha hosts, worshipped with mandara and many other flowers. To him, the syllable 'Ma', I bow.",
+    "hi": "जो मन्दाकिनी के जल और चन्दन से अभिषिक्त हैं, जो नन्दीश्वर और प्रमथगणों के स्वामी महेश्वर हैं, जिनकी मन्दार और अनेक पुष्पों से पूजा होती है — उन 'म' कार स्वरूप शिव को नमस्कार है।",
+    "gu": "જે મંદાકિનીના જળ અને ચંદનથી અભિષિક્ત છે, જે નંદીશ્વર અને પ્રમથગણોના સ્વામી મહેશ્વર છે, જેમની મંદાર અને અનેક પુષ્પોથી પૂજા થાય છે — તે 'મ' કાર સ્વરૂપ શિવને નમસ્કાર."
+   }
+  },
+  {
+   "sanskrit": "शिवाय गौरीवदनाब्जवृन्द-\nसूर्याय दक्षाध्वरनाशकाय ।\nश्रीनीलकण्ठाय वृषध्वजाय\nतस्मै शिकाराय नमः शिवाय ॥ ३ ॥",
+   "text": {
+    "en": "Salutations to Shiva, the auspicious one, the sun that makes the lotus face of Gauri bloom, destroyer of Daksha's sacrifice, the blue-throated one whose banner bears the bull. To him, the syllable 'Shi', I bow.",
+    "hi": "जो कल्याणस्वरूप हैं, गौरी के मुखकमल को खिलाने वाले सूर्य हैं, दक्ष के यज्ञ का नाश करने वाले हैं, जिनका कण्ठ नीला है और ध्वजा पर वृषभ है — उन 'शि' कार स्वरूप शिव को नमस्कार है।",
+    "gu": "જે કલ્યાણસ્વરૂપ છે, ગૌરીના મુખકમળને ખીલવનાર સૂર્ય છે, દક્ષના યજ્ઞનો નાશ કરનાર છે, જેમનો કંઠ નીલો છે અને ધ્વજા પર વૃષભ છે — તે 'શિ' કાર સ્વરૂપ શિવને નમસ્કાર."
+   }
+  },
+  {
+   "sanskrit": "वसिष्ठकुम्भोद्भवगौतमार्य-\nमुनीन्द्रदेवार्चितशेखराय ।\nचन्द्रार्कवैश्वानरलोचनाय\nतस्मै वकाराय नमः शिवाय ॥ ४ ॥",
+   "text": {
+    "en": "Salutations to Shiva, whose crown is worshipped by Vasishtha, Agastya, Gautama and other great sages and by the gods, whose three eyes are the moon, the sun and fire. To him, the syllable 'Va', I bow.",
+    "hi": "जिनके मस्तक की वसिष्ठ, अगस्त्य, गौतम आदि श्रेष्ठ मुनि और देवता पूजा करते हैं, चन्द्रमा, सूर्य और अग्नि जिनके नेत्र हैं — उन 'व' कार स्वरूप शिव को नमस्कार है।",
+    "gu": "જેમના મસ્તકની વસિષ્ઠ, અગસ્ત્ય, ગૌતમ વગેરે શ્રેષ્ઠ મુનિઓ અને દેવો પૂજા કરે છે, ચંદ્ર, સૂર્ય અને અગ્નિ જેમનાં નેત્ર છે — તે 'વ' કાર સ્વરૂપ શિવને નમસ્કાર."
+   }
+  },
+  {
+   "sanskrit": "यक्षस्वरूपाय जटाधराय\nपिनाकहस्ताय सनातनाय ।\nदिव्याय देवाय दिगम्बराय\nतस्मै यकाराय नमः शिवाय ॥ ५ ॥",
+   "text": {
+    "en": "Salutations to Shiva, who took the form of a Yaksha, who bears matted locks, holds the Pinaka bow, the eternal one — divine, the God, clothed in the directions. To him, the syllable 'Ya', I bow.",
+    "hi": "जिन्होंने यक्ष का रूप धारण किया, जो जटाधारी हैं, जिनके हाथ में पिनाक धनुष है, जो सनातन, दिव्य, देव और दिगम्बर हैं — उन 'य' कार स्वरूप शिव को नमस्कार है।",
+    "gu": "જેમણે યક્ષનું રૂપ ધારણ કર્યું, જે જટાધારી છે, જેમના હાથમાં પિનાક ધનુષ છે, જે સનાતન, દિવ્ય, દેવ અને દિગંબર છે — તે 'ય' કાર સ્વરૂપ શિવને નમસ્કાર."
+   }
+  },
+  {
+   "sanskrit": "पञ्चाक्षरमिदं पुण्यं यः पठेच्छिवसन्निधौ ।\nशिवलोकमवाप्नोति शिवेन सह मोदते ॥",
+   "text": {
+    "en": "Whoever recites this sacred hymn of the five syllables in the presence of Shiva attains Shiva's world and rejoices with him.",
+    "hi": "जो शिव के सान्निध्य में इस पवित्र पञ्चाक्षर स्तोत्र का पाठ करता है, वह शिवलोक को प्राप्त करता है और शिव के साथ आनन्दित होता है।",
+    "gu": "જે શિવના સાન્નિધ્યમાં આ પવિત્ર પંચાક્ષર સ્તોત્રનો પાઠ કરે છે, તે શિવલોકને પામે છે અને શિવ સાથે આનંદ માણે છે."
+   }
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+-- ============================================================
+-- Content tables: seeded from files/shivpuran_core.json and files/verses/part_XX.json.
+-- Re-seeded whenever the bundled content version changes. Never store user data here.
+-- ============================================================
+
+-- A samhita, or a khanda/bhaga of a samhita (12 parts in all).
+CREATE TABLE part (
+    id INTEGER NOT NULL PRIMARY KEY,
+    samhita INTEGER NOT NULL,
+    khanda INTEGER NOT NULL,
+    name_sanskrit TEXT NOT NULL,
+    name_en TEXT NOT NULL,
+    name_hi TEXT NOT NULL,
+    name_gu TEXT NOT NULL,
+    description_en TEXT NOT NULL,
+    description_hi TEXT NOT NULL,
+    description_gu TEXT NOT NULL,
+    chapter_count INTEGER NOT NULL
+);
+
+-- An adhyaya; id is the global reading order (1..457).
+CREATE TABLE chapter (
+    id INTEGER NOT NULL PRIMARY KEY,
+    part_id INTEGER NOT NULL,
+    number INTEGER NOT NULL,
+    title_sanskrit TEXT NOT NULL,
+    synopsis_sanskrit TEXT NOT NULL,
+    title_en TEXT,
+    title_hi TEXT,
+    title_gu TEXT,
+    summary_en TEXT,
+    summary_hi TEXT,
+    summary_gu TEXT,
+    verse_count INTEGER NOT NULL,
+    colophon TEXT NOT NULL,
+    has_meanings INTEGER NOT NULL,
+    UNIQUE (part_id, number)
+);
+
+CREATE INDEX chapter_part_idx ON chapter(part_id, number);
+
+CREATE TABLE verse (
+    id INTEGER NOT NULL PRIMARY KEY,
+    chapter_id INTEGER NOT NULL,
+    number INTEGER NOT NULL,
+    speaker TEXT,
+    sanskrit TEXT NOT NULL,
+    meaning_en TEXT,
+    meaning_hi TEXT,
+    meaning_gu TEXT
+);
+
+CREATE INDEX verse_chapter_idx ON verse(chapter_id, number);
+
+CREATE TABLE book (
+    id TEXT NOT NULL PRIMARY KEY,
+    lang TEXT NOT NULL,
+    title_en TEXT NOT NULL,
+    title_hi TEXT NOT NULL,
+    title_gu TEXT NOT NULL,
+    subtitle_en TEXT NOT NULL,
+    subtitle_hi TEXT NOT NULL,
+    subtitle_gu TEXT NOT NULL,
+    author_en TEXT NOT NULL,
+    author_hi TEXT NOT NULL,
+    author_gu TEXT NOT NULL,
+    source TEXT NOT NULL,
+    sort_order INTEGER NOT NULL,
+    section_count INTEGER NOT NULL
+);
+
+CREATE TABLE book_section (
+    book_id TEXT NOT NULL,
+    idx INTEGER NOT NULL,
+    title_en TEXT,
+    title_hi TEXT,
+    title_gu TEXT,
+    sanskrit TEXT,
+    text_en TEXT,
+    text_hi TEXT,
+    text_gu TEXT,
+    PRIMARY KEY (book_id, idx)
+);
+
+-- ============================================================
+-- User tables: survive content re-seeds.
+-- ============================================================
+
+CREATE TABLE bookmark (
+    chapter_id INTEGER NOT NULL,
+    verse_number INTEGER NOT NULL,
+    created_at INTEGER NOT NULL,
+    PRIMARY KEY (chapter_id, verse_number)
+);
+
+CREATE TABLE chapter_read (
+    chapter_id INTEGER NOT NULL PRIMARY KEY,
+    read_at INTEGER NOT NULL
+);
+
+CREATE TABLE last_position (
+    id INTEGER NOT NULL PRIMARY KEY CHECK (id = 1),
+    chapter_id INTEGER NOT NULL,
+    verse_number INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL
+);
+
+CREATE TABLE preference (
+    key TEXT NOT NULL PRIMARY KEY,
+    pref_value TEXT NOT NULL
+);
+
+-- ---------------------------------------------------- seeding
+deleteAllParts:
+DELETE FROM part;
+
+deleteAllChapters:
+DELETE FROM chapter;
+
+deleteAllVerses:
+DELETE FROM verse;
+
+deleteVersesForPart:
+DELETE FROM verse WHERE chapter_id IN (SELECT id FROM chapter WHERE part_id = ?);
+
+deleteAllBooks:
+DELETE FROM book;
+
+deleteAllBookSections:
+DELETE FROM book_section;
+
+insertPart:
+INSERT INTO part VALUES ?;
+
+insertChapter:
+INSERT INTO chapter VALUES ?;
+
+insertVerse:
+INSERT OR REPLACE INTO verse VALUES ?;
+
+insertBook:
+INSERT INTO book VALUES ?;
+
+insertBookSection:
+INSERT INTO book_section VALUES ?;
+
+-- ---------------------------------------------------- content
+selectParts:
+SELECT * FROM part ORDER BY id;
+
+selectChapters:
+SELECT * FROM chapter ORDER BY id;
+
+selectChapterCount:
+SELECT count(*) FROM chapter;
+
+selectVersesForChapter:
+SELECT * FROM verse WHERE chapter_id = ? ORDER BY number;
+
+selectBooks:
+SELECT * FROM book ORDER BY sort_order;
+
+selectBook:
+SELECT * FROM book WHERE id = ?;
+
+selectBookSections:
+SELECT * FROM book_section WHERE book_id = ? ORDER BY idx;
+
+searchChapters:
+SELECT id FROM chapter
+WHERE title_en LIKE '%' || :query || '%' ESCAPE '\'
+   OR title_hi LIKE '%' || :query || '%' ESCAPE '\'
+   OR title_gu LIKE '%' || :query || '%' ESCAPE '\'
+   OR summary_en LIKE '%' || :query || '%' ESCAPE '\'
+   OR summary_hi LIKE '%' || :query || '%' ESCAPE '\'
+   OR summary_gu LIKE '%' || :query || '%' ESCAPE '\'
+   OR title_sanskrit LIKE '%' || :query || '%' ESCAPE '\'
+   OR synopsis_sanskrit LIKE '%' || :query || '%' ESCAPE '\'
+ORDER BY id
+LIMIT 60;
+
+searchVerses:
+SELECT * FROM verse
+WHERE sanskrit LIKE '%' || :query || '%' ESCAPE '\'
+   OR meaning_en LIKE '%' || :query || '%' ESCAPE '\'
+   OR meaning_hi LIKE '%' || :query || '%' ESCAPE '\'
+   OR meaning_gu LIKE '%' || :query || '%' ESCAPE '\'
+ORDER BY id
+LIMIT 60;
+
+-- ---------------------------------------------------- bookmarks
+selectBookmarks:
+SELECT * FROM bookmark ORDER BY created_at DESC;
+
+insertBookmark:
+INSERT OR REPLACE INTO bookmark(chapter_id, verse_number, created_at) VALUES (?, ?, ?);
+
+deleteBookmark:
+DELETE FROM bookmark WHERE chapter_id = ? AND verse_number = ?;
+
+-- ---------------------------------------------------- progress
+markChapterRead:
+INSERT OR IGNORE INTO chapter_read(chapter_id, read_at) VALUES (?, ?);
+
+selectReadChapterIds:
+SELECT chapter_id FROM chapter_read;
+
+saveLastPosition:
+INSERT OR REPLACE INTO last_position(id, chapter_id, verse_number, updated_at) VALUES (1, ?, ?, ?);
+
+selectLastPosition:
+SELECT chapter_id, verse_number FROM last_position WHERE id = 1;
+
+-- ---------------------------------------------------- preferences
+selectAllPreferences:
+SELECT * FROM preference;
+
+selectPreference:
+SELECT pref_value FROM preference WHERE key = ?;
+
+upsertPreference:
+INSERT OR REPLACE INTO preference(key, pref_value) VALUES (?, ?);

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Back up bookmarks, progress and preferences (all stored in shivpuran.db). -->
+<full-backup-content>
+    <include domain="database" path="shivpuran.db" />
+</full-backup-content>

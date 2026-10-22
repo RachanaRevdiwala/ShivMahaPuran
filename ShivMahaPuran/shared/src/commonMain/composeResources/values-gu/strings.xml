@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">શિવ મહાપુરાણ</string>
+    <string name="invocation">ૐ નમઃ શિવાય</string>
+    <string name="greeting">હર હર મહાદેવ</string>
+    <string name="tagline">ભગવાન શિવનો મહિમા — ૭ સંહિતા, ૪૫૭ અધ્યાય, ૨૪,૦૦૦ શ્લોક</string>
+
+    <string name="loading_preparing">પવિત્ર ગ્રંથ તૈયાર થઈ રહ્યો છે…</string>
+    <string name="loading_error">સામગ્રી તૈયાર થઈ શકી નહીં. કૃપા કરી ફરી પ્રયાસ કરો.</string>
+    <string name="retry">ફરી પ્રયાસ કરો</string>
+
+    <string name="nav_home">મુખ્ય</string>
+    <string name="nav_samhitas">સંહિતાઓ</string>
+    <string name="nav_library">સ્તોત્ર</string>
+    <string name="nav_bookmarks">બુકમાર્ક</string>
+    <string name="nav_settings">સેટિંગ્સ</string>
+    <string name="back">પાછળ</string>
+    <string name="close">બંધ કરો</string>
+    <string name="search">શોધો</string>
+
+    <string name="chapter_of_the_day">આજનો અધ્યાય</string>
+    <string name="continue_reading">વાંચન ચાલુ રાખો</string>
+    <string name="start_reading">પાઠ આરંભ કરો</string>
+    <string name="start_reading_hint">વિદ્યેશ્વર સંહિતા, અધ્યાય ૧ થી શરૂ કરો</string>
+    <string name="read_now">વાંચો</string>
+    <string name="overall_progress">તમારી યાત્રા</string>
+    <string name="chapters_read">%2$s માંથી %1$s અધ્યાય વાંચ્યા</string>
+    <string name="samhitas_title">સાત સંહિતાઓ</string>
+
+    <string name="samhita_n">સંહિતા %1$s</string>
+    <string name="chapter_n">અધ્યાય %1$s</string>
+    <string name="chapters_count">%1$s અધ્યાય</string>
+    <string name="verses_count">%1$s શ્લોક</string>
+    <string name="verse_n">શ્લોક %1$s</string>
+    <string name="chapter_verse">અધ્યાય %1$s · શ્લોક %2$s</string>
+    <string name="begin_part">શરૂ કરો</string>
+    <string name="continue_part">અધ્યાય %1$s થી ચાલુ રાખો</string>
+    <string name="summary">સારાંશ</string>
+    <string name="sanskrit_synopsis">વિષય (સંસ્કૃત)</string>
+    <string name="summary_pending">તમારી ભાષામાં સારાંશ તૈયાર થઈ રહ્યો છે. નીચે ગ્રંથનો સંસ્કૃત વિષય-સંક્ષેપ આપ્યો છે.</string>
+    <string name="meaning">અર્થ</string>
+    <string name="with_meanings">અર્થ સહિત</string>
+
+    <string name="page_of">%1$s / %2$s</string>
+    <string name="previous">પાછલું</string>
+    <string name="next">આગળનું</string>
+    <string name="reading_options">વાંચનના વિકલ્પો</string>
+    <string name="chapter_complete">અધ્યાય પૂર્ણ</string>
+    <string name="chapter_complete_message">ભગવાન શિવ તમારા માર્ગને પ્રકાશિત કરે.</string>
+    <string name="next_chapter">આગળનો અધ્યાય</string>
+    <string name="back_to_part">સંહિતા પર પાછા જાઓ</string>
+    <string name="puran_complete">ૐ નમઃ શિવાય</string>
+    <string name="puran_complete_message">તમે શિવ મહાપુરાણનો પાઠ પૂર્ણ કર્યો. હર હર મહાદેવ!</string>
+
+    <string name="bookmark_add">આ પાન બુકમાર્ક કરો</string>
+    <string name="bookmark_remove">બુકમાર્ક દૂર કરો</string>
+    <string name="no_bookmarks">હજી કોઈ બુકમાર્ક નથી</string>
+    <string name="no_bookmarks_hint">વાંચતી વખતે બુકમાર્ક ચિહ્ન દબાવી પ્રિય પાન સાચવો.</string>
+    <string name="share">શેર કરો</string>
+    <string name="copy">કૉપિ કરો</string>
+    <string name="copied">શ્લોક કૉપિ થયો</string>
+    <string name="share_footer">— શિવ મહાપુરાણ, %1$s</string>
+
+    <string name="search_hint">અધ્યાય, કથા કે સંસ્કૃત શબ્દ શોધો</string>
+    <string name="search_empty">અધ્યાયોનાં નામ, સારાંશ અને બધા ૨૪,૦૦૦ શ્લોકોમાં શોધો.</string>
+    <string name="search_no_results">કંઈ મળ્યું નહીં</string>
+    <string name="search_chapters">અધ્યાય</string>
+    <string name="search_verses">શ્લોક</string>
+
+    <string name="settings_language">ભાષા</string>
+    <string name="settings_reading">વાંચન</string>
+    <string name="settings_display">દેખાવ</string>
+    <string name="settings_about">પરિચય</string>
+    <string name="font_size">અક્ષરનું કદ</string>
+    <string name="show_transliteration">લિપ્યંતરણ (રોમન) બતાવો</string>
+    <string name="show_meanings">ઉપલબ્ધ હોય ત્યાં અર્થ બતાવો</string>
+    <string name="sanskrit_script">શ્લોકની લિપિ</string>
+    <string name="script_auto">ઍપની ભાષા મુજબ</string>
+    <string name="script_devanagari">દેવનાગરી (संस्कृत)</string>
+    <string name="script_gujarati">ગુજરાતી</string>
+    <string name="verses_per_page">પાન દીઠ શ્લોક</string>
+    <string name="keep_screen_on">વાંચતી વખતે સ્ક્રીન ચાલુ રાખો</string>
+    <string name="night_mode">રાત્રિ વાંચન</string>
+    <string name="night_mode_hint">ઓછા પ્રકાશમાં આરામદાયક વાંચન માટે પાનું ઝાંખું કરે છે</string>
+    <string name="privacy_options">જાહેરાત ગોપનીયતા વિકલ્પો</string>
+    <string name="about_text">શિવભક્તો માટે એક નમ્ર ભેટ — સંપૂર્ણ સંસ્કૃત શિવ મહાપુરાણ, પુસ્તકની જેમ, સંપૂર્ણપણે ઑફલાઇન, દરેક અધ્યાયના ગુજરાતી, હિન્દી અને અંગ્રેજી સારાંશ સાથે.</string>
+    <string name="content_source">સંસ્કૃત પાઠ સંસ્કૃત વિકિસ્રોત (જાહેર) માંથી લીધો છે. સારાંશ, શીર્ષક અને અર્થ આ ઍપ માટે તૈયાર કરાયા છે.</string>
+    <string name="version">આવૃત્તિ %1$s</string>
+
+    <string name="library_subtitle">પ્રિય શિવ સ્તોત્રો, અર્થ સહિત</string>
+    <string name="book_pages">%1$s પાન</string>
+    <string name="shown_in">%1$sમાં</string>
+    <string name="source_label">સ્રોત: %1$s</string>
+    <string name="book_complete">ૐ નમઃ શિવાય. હર હર મહાદેવ!</string>
+    <string name="recite_daily">રોજ પાઠ કરો</string>
+
+    <string name="onboarding_title">તમારી ભાષા પસંદ કરો</string>
+    <string name="continue_label">આગળ વધો</string>
+</resources>
